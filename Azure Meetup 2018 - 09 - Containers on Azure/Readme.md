@@ -22,6 +22,12 @@ az acr login \
     -n <<NAME>>
 ```
 
+If you work with multiple subscriptions, you may have to set your default subscription first. e. g. :
+```
+az account list
+az account set --subscription <<subscriptionid from above cmd>>
+```
+
 Create Service Principal for communication between ACR and AKS
 ```
 az ad sp create-for-rbac \
@@ -94,6 +100,11 @@ az aks install-cli
 az aks get-credentials
     -g <<resource group>>
     -n <<name>>
+```
+
+You can now access the dashboard using
+```
+az aks browse -n <<aksname>> -g <<resourcegroup_name>>
 ```
 
 ### Initially deploy images from Demo-repo  
