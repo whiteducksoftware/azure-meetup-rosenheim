@@ -10,7 +10,7 @@ Uses Azure Command Line Interface (https://docs.microsoft.com/en-us/cli/azure/?v
 Docs: https://docs.microsoft.com/en-us/cli/azure/acr?view=azure-cli-latest#az-acr-create  
 Create Container Registry
 ```
-az create \
+az acr create \
     -n <<name>> \
     -g <<resource group>> \
     --sku <<Basic | Classic | Premium | Standard>>
