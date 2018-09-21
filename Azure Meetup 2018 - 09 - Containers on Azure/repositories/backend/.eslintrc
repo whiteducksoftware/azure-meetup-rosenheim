@@ -1,0 +1,22 @@
+{
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "script"
+    },
+    "env": {
+      "node": true
+    },
+    "extends": "airbnb-base",
+    "globals": {
+    },
+    "rules": {
+      "no-param-reassign": [1, {
+        "props": false
+      }],
+      "camelcase": [0],
+      "linebreak-style": ["error", "windows"],
+      "indent": ["error", "tab"],
+	  "no-tabs": "off",
+	  "no-console":"off"
+    }
+  }

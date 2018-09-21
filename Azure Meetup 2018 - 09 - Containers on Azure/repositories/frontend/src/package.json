@@ -1,0 +1,23 @@
+{
+  "name": "nodejs_test_01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev:watch": "./node_modules/.bin/nodemon ./index.js"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.16.3",
+    "got": "^9.2.0",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^13.1.0",
+    "nodemon": "^1.18.4",
+    "eslint": "^5.5.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}

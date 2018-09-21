@@ -1,0 +1,24 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: whiteduck-frontend # name of the deployment
+spec:
+  selector: # selector which pods belong to the deployment
+    matchLabels:
+      app: whiteduck
+      tier: frontend
+      track: stable
+  replicas: 1 # count of default created pods
+  template: # definition for the pods
+    metadata:
+      labels: # tags, e.g. for the service selector
+        app: whiteduck
+        tier: frontend
+        track: stable
+    spec:
+      containers: # container config which runs the app
+        - name: frontend
+          image: "wdskureg.azurecr.io/container.demo.frontend" # application image
+          ports: # create a port alias, see backend service
+            - name: http
+              containerPort: 3000
