@@ -1,0 +1,738 @@
+{
+  "luis_schema_version": "3.2.0",
+  "versionId": "0.1",
+  "name": "Reisebüro",
+  "desc": "",
+  "culture": "de-de",
+  "tokenizerVersion": "1.0.2",
+  "intents": [
+    {
+      "name": "None"
+    },
+    {
+      "name": "Reiseauskunft"
+    },
+    {
+      "name": "Zugbuchung"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Anzahl Tickets",
+      "roles": []
+    },
+    {
+      "name": "Filterkategorie",
+      "roles": []
+    },
+    {
+      "name": "Ort",
+      "roles": [
+        "Ziel",
+        "Herkunft"
+      ]
+    },
+    {
+      "name": "Reiseklasse",
+      "roles": []
+    }
+  ],
+  "composites": [
+    {
+      "name": "TicketBuchung",
+      "children": [
+        "Anzahl Tickets",
+        "Reiseklasse"
+      ],
+      "roles": []
+    }
+  ],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [
+    {
+      "name": "datetimeV2",
+      "roles": []
+    }
+  ],
+  "model_features": [
+    {
+      "name": "Städte",
+      "mode": true,
+      "words": "münchen,berlin,stuttgart,köln,hannover,dresden,leipzig,nürnberg,frankfurt,düsseldorf,hamburg,bremen,dortmund,bonn,essen,münster,karlsruhe,erfurt,kassel,kiel,mannheim,saarbrücken,chemnitz,lübeck,potsdam,freiburg,regensburg,würzburg,osnabrück,darmstadt,koblenz,heidelberg,erlangen,paderborn,kaiserslautern,siegen,mönchengladbach,pforzheim,reutlingen,gelsenkirchen,hagen,oberhausen,leverkusen,hamm,bremerhaven,hildesheim,recklinghausen,solingen,neuss,wolfsburg,remscheid,gütersloh,herne,bottrop,moers,witten,bergisch gladbach,düren,euskirchen,lüdenscheid,viersen,wesel,gummersbach",
+      "activated": true
+    }
+  ],
+  "regex_features": [],
+  "patterns": [
+    {
+      "pattern": "wann fährt der {Filterkategorie} zug von {Ort:Herkunft} nach {Ort:Ziel}?",
+      "intent": "Reiseauskunft"
+    },
+    {
+      "pattern": "{Anzahl Tickets} tickets in der {Reiseklasse} von {Ort:Herkunft} nach {Ort:Ziel} kaufen.",
+      "intent": "Zugbuchung"
+    }
+  ],
+  "utterances": [
+    {
+      "text": "3 tickets nach berlin in der 1. klasse bitte",
+      "intent": "Zugbuchung",
+      "entities": [
+        {
+          "entity": "Anzahl Tickets",
+          "startPos": 0,
+          "endPos": 0
+        },
+        {
+          "entity": "TicketBuchung",
+          "startPos": 0,
+          "endPos": 0
+        },
+        {
+          "entity": "Ort",
+          "role": "Ziel",
+          "startPos": 15,
+          "endPos": 20
+        },
+        {
+          "entity": "Reiseklasse",
+          "startPos": 29,
+          "endPos": 37
+        },
+        {
+          "entity": "TicketBuchung",
+          "startPos": 29,
+          "endPos": 37
+        }
+      ]
+    },
+    {
+      "text": "buche bitte ein ticket in der 1. klasse von freiburg nach prag",
+      "intent": "Zugbuchung",
+      "entities": [
+        {
+          "entity": "Anzahl Tickets",
+          "startPos": 12,
+          "endPos": 14
+        },
+        {
+          "entity": "TicketBuchung",
+          "startPos": 12,
+          "endPos": 14
+        },
+        {
+          "entity": "Reiseklasse",
+          "startPos": 30,
+          "endPos": 38
+        },
+        {
+          "entity": "TicketBuchung",
+          "startPos": 30,
+          "endPos": 38
+        },
+        {
+          "entity": "Ort",
+          "role": "Herkunft",
+          "startPos": 44,
+          "endPos": 51
+        },
+        {
+          "entity": "Ort",
+          "role": "Ziel",
+          "startPos": 58,
+          "endPos": 61
+        }
+      ]
+    },
+    {
+      "text": "buche ein ticket von stuttgart nach münchen",
+      "intent": "Zugbuchung",
+      "entities": [
+        {
+          "entity": "Anzahl Tickets",
+          "startPos": 6,
+          "endPos": 8
+        },
+        {
+          "entity": "TicketBuchung",
+          "startPos": 6,
+          "endPos": 8
+        },
+        {
+          "entity": "Ort",
+          "role": "Herkunft",
+          "startPos": 21,
+          "endPos": 29
+        },
+        {
+          "entity": "Ort",
+          "role": "Ziel",
+          "startPos": 36,
+          "endPos": 42
+        }
+      ]
+    },
+    {
+      "text": "ch möchte die günstigste fahrkarte von hamburg nach paris in der 1. klasse.",
+      "intent": "Zugbuchung",
+      "entities": [
+        {
+          "entity": "Filterkategorie",
+          "startPos": 14,
+          "endPos": 23
+        },
+        {
+          "entity": "Ort",
+          "role": "Herkunft",
+          "startPos": 39,
+          "endPos": 45
+        },
+        {
+          "entity": "Ort",
+          "role": "Ziel",
+          "startPos": 52,
+          "endPos": 56
+        },
+        {
+          "entity": "Reiseklasse",
+          "startPos": 65,
+          "endPos": 73
+        },
+        {
+          "entity": "TicketBuchung",
+          "startPos": 65,
+          "endPos": 73
+        }
+      ]
+    },
+    {
+      "text": "ch möchte die schnellste verbindung von hamburg nach paris in der 2. klasse.",
+      "intent": "Zugbuchung",
+      "entities": [
+        {
+          "entity": "Filterkategorie",
+          "startPos": 14,
+          "endPos": 23
+        },
+        {
+          "entity": "Ort",
+          "role": "Herkunft",
+          "startPos": 40,
+          "endPos": 46
+        },
+        {
+          "entity": "Ort",
+          "role": "Ziel",
+          "startPos": 53,
+          "endPos": 57
+        },
+        {
+          "entity": "Reiseklasse",
+          "startPos": 66,
+          "endPos": 74
+        },
+        {
+          "entity": "TicketBuchung",
+          "startPos": 66,
+          "endPos": 74
+        }
+      ]
+    },
+    {
+      "text": "ch möchte eine fahrkarte von hamburg nach paris in der 1. klasse.",
+      "intent": "Zugbuchung",
+      "entities": [
+        {
+          "entity": "Anzahl Tickets",
+          "startPos": 10,
+          "endPos": 13
+        },
+        {
+          "entity": "TicketBuchung",
+          "startPos": 10,
+          "endPos": 13
+        },
+        {
+          "entity": "Ort",
+          "role": "Herkunft",
+          "startPos": 29,
+          "endPos": 35
+        },
+        {
+          "entity": "Ort",
+          "role": "Ziel",
+          "startPos": 42,
+          "endPos": 46
+        },
+        {
+          "entity": "Reiseklasse",
+          "startPos": 55,
+          "endPos": 63
+        },
+        {
+          "entity": "TicketBuchung",
+          "startPos": 55,
+          "endPos": 63
+        }
+      ]
+    },
+    {
+      "text": "ch möchte eine fahrkarte von hamburg nach paris.",
+      "intent": "Zugbuchung",
+      "entities": [
+        {
+          "entity": "Anzahl Tickets",
+          "startPos": 10,
+          "endPos": 13
+        },
+        {
+          "entity": "TicketBuchung",
+          "startPos": 10,
+          "endPos": 13
+        },
+        {
+          "entity": "Ort",
+          "role": "Herkunft",
+          "startPos": 29,
+          "endPos": 35
+        },
+        {
+          "entity": "Ort",
+          "role": "Ziel",
+          "startPos": 42,
+          "endPos": 46
+        }
+      ]
+    },
+    {
+      "text": "die schnellste verbindung nach hannover für zwei personen",
+      "intent": "Zugbuchung",
+      "entities": [
+        {
+          "entity": "Filterkategorie",
+          "startPos": 4,
+          "endPos": 13
+        },
+        {
+          "entity": "Ort",
+          "role": "Ziel",
+          "startPos": 31,
+          "endPos": 38
+        },
+        {
+          "entity": "Anzahl Tickets",
+          "startPos": 44,
+          "endPos": 47
+        },
+        {
+          "entity": "TicketBuchung",
+          "startPos": 44,
+          "endPos": 47
+        }
+      ]
+    },
+    {
+      "text": "einmal 1. klasse nach prag.",
+      "intent": "Zugbuchung",
+      "entities": [
+        {
+          "entity": "Anzahl Tickets",
+          "startPos": 0,
+          "endPos": 5
+        },
+        {
+          "entity": "TicketBuchung",
+          "startPos": 0,
+          "endPos": 5
+        },
+        {
+          "entity": "Reiseklasse",
+          "startPos": 7,
+          "endPos": 15
+        },
+        {
+          "entity": "TicketBuchung",
+          "startPos": 7,
+          "endPos": 15
+        },
+        {
+          "entity": "Ort",
+          "role": "Ziel",
+          "startPos": 22,
+          "endPos": 25
+        }
+      ]
+    },
+    {
+      "text": "einmal die günstigste verbindung von rosenheim nach wien",
+      "intent": "Zugbuchung",
+      "entities": [
+        {
+          "entity": "Anzahl Tickets",
+          "startPos": 0,
+          "endPos": 5
+        },
+        {
+          "entity": "TicketBuchung",
+          "startPos": 0,
+          "endPos": 5
+        },
+        {
+          "entity": "Filterkategorie",
+          "startPos": 11,
+          "endPos": 20
+        },
+        {
+          "entity": "Ort",
+          "role": "Herkunft",
+          "startPos": 37,
+          "endPos": 45
+        },
+        {
+          "entity": "Ort",
+          "role": "Ziel",
+          "startPos": 52,
+          "endPos": 55
+        }
+      ]
+    },
+    {
+      "text": "einmal von salzburg nach frankfurt",
+      "intent": "Zugbuchung",
+      "entities": [
+        {
+          "entity": "Anzahl Tickets",
+          "startPos": 0,
+          "endPos": 5
+        },
+        {
+          "entity": "TicketBuchung",
+          "startPos": 0,
+          "endPos": 5
+        },
+        {
+          "entity": "Ort",
+          "role": "Herkunft",
+          "startPos": 11,
+          "endPos": 18
+        },
+        {
+          "entity": "Ort",
+          "role": "Ziel",
+          "startPos": 25,
+          "endPos": 33
+        }
+      ]
+    },
+    {
+      "text": "ich hätte gerne 20 tickets von salzburg nach wien.",
+      "intent": "Zugbuchung",
+      "entities": [
+        {
+          "entity": "Anzahl Tickets",
+          "startPos": 16,
+          "endPos": 17
+        },
+        {
+          "entity": "Ort",
+          "role": "Herkunft",
+          "startPos": 31,
+          "endPos": 38
+        },
+        {
+          "entity": "Ort",
+          "role": "Ziel",
+          "startPos": 45,
+          "endPos": 48
+        }
+      ]
+    },
+    {
+      "text": "ich möchte die schnellste verbindung von hamburg nach paris in der 2. klasse.",
+      "intent": "Zugbuchung",
+      "entities": [
+        {
+          "entity": "Filterkategorie",
+          "startPos": 15,
+          "endPos": 24
+        },
+        {
+          "entity": "Ort",
+          "role": "Herkunft",
+          "startPos": 41,
+          "endPos": 47
+        },
+        {
+          "entity": "Ort",
+          "role": "Ziel",
+          "startPos": 54,
+          "endPos": 58
+        },
+        {
+          "entity": "Reiseklasse",
+          "startPos": 67,
+          "endPos": 75
+        },
+        {
+          "entity": "TicketBuchung",
+          "startPos": 67,
+          "endPos": 75
+        }
+      ]
+    },
+    {
+      "text": "ich würde ein zugticket in der 2. klasse nach freiburg kaufen",
+      "intent": "Zugbuchung",
+      "entities": [
+        {
+          "entity": "Anzahl Tickets",
+          "startPos": 10,
+          "endPos": 12
+        },
+        {
+          "entity": "TicketBuchung",
+          "startPos": 10,
+          "endPos": 12
+        },
+        {
+          "entity": "Reiseklasse",
+          "startPos": 31,
+          "endPos": 39
+        },
+        {
+          "entity": "TicketBuchung",
+          "startPos": 31,
+          "endPos": 39
+        },
+        {
+          "entity": "Ort",
+          "role": "Ziel",
+          "startPos": 46,
+          "endPos": 53
+        }
+      ]
+    },
+    {
+      "text": "kann ich heute noch nach brasilien fahren?",
+      "intent": "Reiseauskunft",
+      "entities": [
+        {
+          "entity": "Ort",
+          "role": "Ziel",
+          "startPos": 25,
+          "endPos": 33
+        }
+      ]
+    },
+    {
+      "text": "kaufe eine fahrkarte von hannover nach rom in der 2. klasse",
+      "intent": "Zugbuchung",
+      "entities": [
+        {
+          "entity": "Anzahl Tickets",
+          "startPos": 6,
+          "endPos": 9
+        },
+        {
+          "entity": "TicketBuchung",
+          "startPos": 6,
+          "endPos": 9
+        },
+        {
+          "entity": "Ort",
+          "role": "Herkunft",
+          "startPos": 25,
+          "endPos": 32
+        },
+        {
+          "entity": "Ort",
+          "role": "Ziel",
+          "startPos": 39,
+          "endPos": 41
+        },
+        {
+          "entity": "Reiseklasse",
+          "startPos": 50,
+          "endPos": 58
+        },
+        {
+          "entity": "TicketBuchung",
+          "startPos": 50,
+          "endPos": 58
+        }
+      ]
+    },
+    {
+      "text": "mein name ist hase",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "sind meine haare schön?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "um wie viel uhr fährt die nächste bahn nach münchen?",
+      "intent": "Reiseauskunft",
+      "entities": [
+        {
+          "entity": "Filterkategorie",
+          "startPos": 26,
+          "endPos": 37
+        },
+        {
+          "entity": "Ort",
+          "role": "Ziel",
+          "startPos": 44,
+          "endPos": 50
+        }
+      ]
+    },
+    {
+      "text": "wann fährt der nächste zug von prag nach breslau?",
+      "intent": "Reiseauskunft",
+      "entities": [
+        {
+          "entity": "Filterkategorie",
+          "startPos": 11,
+          "endPos": 21
+        },
+        {
+          "entity": "Ort",
+          "role": "Herkunft",
+          "startPos": 31,
+          "endPos": 34
+        },
+        {
+          "entity": "Ort",
+          "role": "Ziel",
+          "startPos": 41,
+          "endPos": 47
+        }
+      ]
+    },
+    {
+      "text": "wann geht der nächste zug nach new york",
+      "intent": "Reiseauskunft",
+      "entities": [
+        {
+          "entity": "Filterkategorie",
+          "startPos": 10,
+          "endPos": 20
+        },
+        {
+          "entity": "Ort",
+          "role": "Ziel",
+          "startPos": 31,
+          "endPos": 38
+        }
+      ]
+    },
+    {
+      "text": "wann geht der zug 737 nach rosenheim?",
+      "intent": "Reiseauskunft",
+      "entities": [
+        {
+          "entity": "Ort",
+          "role": "Ziel",
+          "startPos": 27,
+          "endPos": 35
+        }
+      ]
+    },
+    {
+      "text": "wann kann ich von münchen nach dresden fahren?",
+      "intent": "Reiseauskunft",
+      "entities": [
+        {
+          "entity": "Ort",
+          "role": "Herkunft",
+          "startPos": 18,
+          "endPos": 24
+        },
+        {
+          "entity": "Ort",
+          "role": "Ziel",
+          "startPos": 31,
+          "endPos": 37
+        }
+      ]
+    },
+    {
+      "text": "welche verbindung ist die günstigste von rosenheim nach salzburg?",
+      "intent": "Reiseauskunft",
+      "entities": [
+        {
+          "entity": "Filterkategorie",
+          "startPos": 26,
+          "endPos": 35
+        },
+        {
+          "entity": "Ort",
+          "role": "Herkunft",
+          "startPos": 41,
+          "endPos": 49
+        },
+        {
+          "entity": "Ort",
+          "role": "Ziel",
+          "startPos": 56,
+          "endPos": 63
+        }
+      ]
+    },
+    {
+      "text": "wie heißt du?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "wie viel verspätung hat der zug 345 nach barcelona",
+      "intent": "Reiseauskunft",
+      "entities": [
+        {
+          "entity": "Filterkategorie",
+          "startPos": 9,
+          "endPos": 18
+        },
+        {
+          "entity": "Ort",
+          "role": "Ziel",
+          "startPos": 41,
+          "endPos": 49
+        }
+      ]
+    },
+    {
+      "text": "wir viel uhr ist es?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "wo kann ich hier gut pizza essen gehen?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "zwei tickets nach münchen bitte.",
+      "intent": "Zugbuchung",
+      "entities": [
+        {
+          "entity": "Anzahl Tickets",
+          "startPos": 0,
+          "endPos": 3
+        },
+        {
+          "entity": "Ort",
+          "role": "Ziel",
+          "startPos": 18,
+          "endPos": 24
+        }
+      ]
+    }
+  ],
+  "settings": []
+}
