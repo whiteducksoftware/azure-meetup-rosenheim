@@ -25,3 +25,6 @@
 * [GitHub Actions (2019 - 12)](Azure%20Meetup%202019%20-%2012%20-%20Github%20Actions)
 * [Azure News (2020 - 02)](Azure%20Meetup%202020%20-%2002%20-%20Azure%20News)
 * [Azure Static Web App & GitHub CLI (2020 - 07)](Azure%20Meetup%202020%20-%2007%20-%20Azure%20Static%20Web%20App%20%26%20GitHub%20CLI/AzureStaticWebApps.pptx)
+* [Azure Service Operator & Project Bicep (2021 - 03)](Azure-Meetup-2021-03-Azure-Service-Operator-and-Project-Bicep/README.md)
+* [Production-Ready Terraform Deployments auf Azure (2021 - 07)](Azure-Meetup-2021-07-Production-Ready-Terraform-Deployments-auf-Azure/README.md)
+* [Eine Reise durch die drei großen Public Clouds (2021 - 09)](Azure-Meetup-2021-09-Eine-Reise-durch-die-drei-großen-Public-Clouds/README.md)
