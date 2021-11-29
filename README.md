@@ -28,3 +28,4 @@
 * [Azure Service Operator & Project Bicep (2021 - 03)](Azure-Meetup-2021-03-Azure-Service-Operator-and-Project-Bicep/README.md)
 * [Production-Ready Terraform Deployments auf Azure (2021 - 07)](Azure-Meetup-2021-07-Production-Ready-Terraform-Deployments-auf-Azure/README.md)
 * [Eine Reise durch die drei großen Public Clouds (2021 - 09)](Azure-Meetup-2021-09-Eine-Reise-durch-die-drei-großen-Public-Clouds/README.md)
+* [Neuigkeiten zu Containern und Kubernetes auf Azure (2021 - 11)](Azure-Meetup-2021-11-Neuigkeiten-zu-Containern-und-Kubernetes-auf-Azure/README.md)
