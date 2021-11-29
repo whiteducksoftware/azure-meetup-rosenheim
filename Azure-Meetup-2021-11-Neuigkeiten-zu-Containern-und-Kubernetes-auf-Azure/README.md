@@ -26,5 +26,5 @@
 
 ### Resources
 - Azure Container Apps [Demo](https://github.com/mjisaak/azure-container-apps) 
-- Die Slides findet Iht [hier](Azure-Meetup-2021-11-Neuigkeiten-zu-Containern-und-Kubernetes-auf-Azure/2021-11-Container-und-Kubernetes-News.pdf)
+- Die Slides findet Iht [hier](2021-11-Container-und-Kubernetes-News.pdf)
 - Die Aufnahme von dem Meetup findet Ihr [hier](https://www.youtube.com/watch?v=dkga8Lt54Xo)
