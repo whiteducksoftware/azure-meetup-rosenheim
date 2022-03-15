@@ -28,7 +28,7 @@ GitOps ist auch in 2022 noch ein heißes Thema. Microsoft hat vor kurzem die Git
 
 ### Resources
 
-- Die Slides findet ihr [hier](2022-03 - GitOps in Azure.pdf)
+- Die Slides findet ihr [hier](2022-03 -GitOps-in-Azure.pdf)
 - Die Details zu Demo findet ihr [hier](details.md)
 - Den Bicep code aus der Demo findet ihr [hier](main.bicep)
 - Das white duck Flux Demo repository finder ihr [hier](https://github.com/whiteducksoftware/fluxcd-example)
