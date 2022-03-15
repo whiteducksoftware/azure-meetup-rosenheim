@@ -32,4 +32,4 @@ GitOps ist auch in 2022 noch ein heißes Thema. Microsoft hat vor kurzem die Git
 - Die Details zu Demo findet ihr [hier](details.md)
 - Den Bicep code aus der Demo findet ihr [hier](main.bicep)
 - Das white duck Flux Demo repository finder ihr [hier](https://github.com/whiteducksoftware/fluxcd-example)
-- Die Aufnahme von dem Meetup findet ihr [hier](PLACEHOLDER)
+- Die Aufnahme von dem Meetup findet ihr [hier](https://youtu.be/QZtAIG9agHQ)
