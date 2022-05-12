@@ -30,3 +30,4 @@ Azure Communtiy for professionals, interested and newcomers.
 - [Eine Reise durch die drei großen Public Clouds (2021 - 09)](Azure-Meetup-2021-09-Eine-Reise-durch-die-drei-großen-Public-Clouds/README.md)
 - [Neuigkeiten zu Containern und Kubernetes auf Azure (2021 - 11)](Azure-Meetup-2021-11-Neuigkeiten-zu-Containern-und-Kubernetes-auf-Azure/README.md)
 - [GitOps in Azure (2022 - 03)](Azure-Meetup-2022-03-GitOps-in-Azure/README.md)
+- [First look: Azure Managed Grafana, AZApi Terraform Provider, Azure Terrafy (2022 - 05)](Azure-Meetup-2022-05-Grafana-azapi-aztfy/README.md)
