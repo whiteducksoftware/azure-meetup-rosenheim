@@ -32,3 +32,4 @@ Azure Communtiy for professionals, interested and newcomers.
 - [GitOps in Azure (2022 - 03)](Azure-Meetup-2022-03-GitOps-in-Azure/README.md)
 - [First look: Azure Managed Grafana, AZApi Terraform Provider, Azure Terrafy (2022 - 05)](Azure-Meetup-2022-05-Grafana-azapi-aztfy/README.md)
 - [Windows 365 und Microsoft 365 Security for Endpoints (2022 - 11)](Azure-Meetup-2022-11-Windows365/README.md)
+- [Power Apps Überblick (2022 - 12)](Azure-Meetup-2022-12-PowerApps/README.md)
