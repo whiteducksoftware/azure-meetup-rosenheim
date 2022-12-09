@@ -1,4 +1,4 @@
-# Windows 365 und Microsoft 365 Security for Endpoints
+# Power Apps Überblick
 
 <img width="50%" align="right" alt="Meetup Logo" src="https://secure.meetupstatic.com/photos/event/2/5/7/3/clean_476649587.jpeg">
 
@@ -22,7 +22,7 @@ Dieses Mal sind Robin und Tobias von der ModulAcht unsere Gast Speaker! Sie werd
 
 
 - 🎬 17:30 - 17:45 Begrüßung und Einleitung
-- 👩🏼‍💻17:50 - 18:50
+- 👩🏼‍💻 17:50 - 18:50
 - ✅ Was sind Power Apps?
 - ✅ Wo liegen die Vorteile von Power Apps?
 - ✅ Wo sind die Grenzen von Power Apps?
