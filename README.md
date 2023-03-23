@@ -33,3 +33,4 @@ Azure Communtiy for professionals, interested and newcomers.
 - [First look: Azure Managed Grafana, AZApi Terraform Provider, Azure Terrafy (2022 - 05)](Azure-Meetup-2022-05-Grafana-azapi-aztfy/README.md)
 - [Windows 365 und Microsoft 365 Security for Endpoints (2022 - 11)](Azure-Meetup-2022-11-Windows365/README.md)
 - [Power Apps Überblick (2022 - 12)](Azure-Meetup-2022-12-PowerApps/README.md)
+- [Chaos Engineering with Azure Chaos Studio pt. 1 (2023 - 03)](Azure-Meetup-2023-03-22-Chaos-Engineering-pt1/README.md)
