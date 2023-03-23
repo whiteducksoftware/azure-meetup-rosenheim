@@ -27,5 +27,5 @@ This is the first part of a series about Chaos Engineering with Azure Chaos Stud
 
 ### Resources
 
-- Die Slides findet ihr [hier](2023-03-Chaos-Engineering.pdf)
+- The presentation is available [here](2023-03-Chaos-Engineering.pdf)
 - The recording is available [here](https://www.youtube.com/watch?v=mN3Luc3eYlc)
