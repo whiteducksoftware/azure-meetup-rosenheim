@@ -1,4 +1,4 @@
-# Chaos Engineering with Azure Chaos Studio pt. 1
+# Chaos Engineering with Azure Chaos Studio pt. 2
 
 <img width="50%" align="right" alt="Meetup Logo" src="https://secure.meetupstatic.com/photos/event/2/5/7/3/clean_476649587.jpeg">
 
