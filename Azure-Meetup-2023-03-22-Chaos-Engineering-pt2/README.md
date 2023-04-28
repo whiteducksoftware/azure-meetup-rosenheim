@@ -6,7 +6,7 @@
 
 We look forward to welcoming you to our next virtual Azure Rosenheim Meetup.
 
-This is the first part of a series about Chaos Engineering with Azure Chaos Studio. In this part we will learn the basics and key principles of Chaos Engineering. Afterwards we are going to introduce Azure Chaos Studio (Public Preview), that is a new(er) managed service on Azure.
+In the first part we covered the basics of Chaos Engineering and took a look at Azure Chaos Studio. In this part we want use the Azure Chaos Studio to cause some chaos on a Kubernetes Cluster with running applications. Join us, we look forward to you!
 
 ## Speakers
 
@@ -15,18 +15,18 @@ This is the first part of a series about Chaos Engineering with Azure Chaos Stud
 
 ## Meetup
 
-- Date: 2023-03-22, 6pm CET
-- [Meetup URL](https://www.meetup.com/de-DE/azure-meetup-rosenheim/events/291769362/)
+- Date: 2023-04-27, 6pm CET
+- [Meetup URL](https://www.meetup.com/de-DE/azure-meetup-rosenheim/events/291769402/)
 
 ### Agenda
 
 - 18:00 - 18:10 🎬 Welcome and Azure News
-- 18:10 - 18:30 📢 Chaos Engineering basics & key principles
-- 18:30 - 18:50 📢 Azure Chaos Studio intro
+- 18:10 - 18:20 📢 Quick summary from Part 1
+- 18:20 - 18:50 📢 Hands-on - Causing Chaos on a Kubernetes Cluster
 - 18:50 - 19:00 🙋‍♂️ FAQ / Closing / Networking
 
 ### Resources
 
-- The presentation is available [here](2023-03-Chaos-Engineering.pdf)
+- The presentation is available [here](2023-04-Chaos-Engineering-pt2.pdf)
 - The code is available here [here](https://github.com/philwelz/azure-chaos-studio)
-- The recording is available [here](https://www.youtube.com/watch?v=mN3Luc3eYlc)
+- The recording is available [here](https://www.youtube.com/watch?v=WfdZeRP9fCU)
