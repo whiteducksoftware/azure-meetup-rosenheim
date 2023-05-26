@@ -35,3 +35,4 @@ Azure Communtiy for professionals, interested and newcomers.
 - [Power Apps Überblick (2022 - 12)](Azure-Meetup-2022-12-PowerApps/README.md)
 - [Chaos Engineering with Azure Chaos Studio pt. 1 (2023 - 03)](Azure-Meetup-2023-03-22-Chaos-Engineering-pt1/README.md)
 - [Chaos Engineering with Azure Chaos Studio pt. 2 (2023 - 04)](Azure-Meetup-2023-04-27-Chaos-Engineering-pt2/README.md)
+- [Pulumi & Azure: Der Turbo-Boost für deine Cloud-Projekte (2023 - 05)](Azure-Meetup-2023-05-25-Pulumi-and-Azure-Der-Turbo-Boost-fuer-deine-Cloud-Projekte/README.md)
