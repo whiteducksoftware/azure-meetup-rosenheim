@@ -15,8 +15,8 @@ Erfahre, wie Pulumi es dir ermöglicht, in deiner Lieblings-Programmiersprache z
 
 ## Meetup
 
-- Datum: 29.11.2021, 17.30 Uhr
-- Meetup URL: https://www.meetup.com/de-DE/Azure-Meetup-Rosenheim/events/281946252/
+- Datum: 25.05.2023, 18:00 Uhr
+- Meetup URL: https://www.meetup.com/de-DE/azure-meetup-rosenheim/events/292822487/
 
 ### Agenda
 
@@ -26,6 +26,7 @@ Erfahre, wie Pulumi es dir ermöglicht, in deiner Lieblings-Programmiersprache z
 
 
 ### Resources
+
 - Pulumi https://www.pulumi.com/
 - Die Slides findet Ihr [hier](2023-05-25-azure-rosenheim-meetup.pdf)
 - Demo Code findet Ihr [hier](https://github.com/dirien/azure-rosenheim-meetup)
