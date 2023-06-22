@@ -30,5 +30,5 @@ Anhand eines Quickstarters, den wir mit der Azure Developer CLI gebaut haben, ze
 ### Resources
 
 - Die Slides findet Ihr [hier](2023-06-21-azure-rosenheim-meetup.pdf)
-- Die Slides vom Azure Developer CLI findet Ihr [hier](2023-06-21-Azure-Developer-CLI.pdf)
+- Die Slides vom Azure Developer CLI findet Ihr [hier](Azure-Developer-CLI.pdf)
 - Die Aufnahme von dem Meetup findet Ihr [hier](https://www.youtube.com/live/-qMDNeyDqB8?feature=share)
