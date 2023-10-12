@@ -36,5 +36,5 @@ Azure Communtiy for professionals, interested and newcomers.
 - [Chaos Engineering with Azure Chaos Studio pt. 1 (2023 - 03)](Azure-Meetup-2023-03-22-Chaos-Engineering-pt1/README.md)
 - [Chaos Engineering with Azure Chaos Studio pt. 2 (2023 - 04)](Azure-Meetup-2023-04-27-Chaos-Engineering-pt2/README.md)
 - [Pulumi & Azure: Der Turbo-Boost für deine Cloud-Projekte (2023 - 05)](Azure-Meetup-2023-05-25-Pulumi-and-Azure-Der-Turbo-Boost-fuer-deine-Cloud-Projekte/README.md)
-- [Azure Developer CLI: azd up - one command to rule them all(2023 - 06)](Azure-Meetup-2023-06-Azure-Developer-CLI/README.md)
-
+- [Azure Developer CLI: azd up - one command to rule them all (2023 - 06)](Azure-Meetup-2023-06-Azure-Developer-CLI/README.md)
+- [Generative AI & Azure OpenAI (2023 - 10)](Azure-Meetup-2023-10-Azure-Open-AI/README.md)
