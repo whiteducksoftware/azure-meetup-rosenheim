@@ -1,4 +1,4 @@
-# Azure Developer CLI: azd up - one command to rule them all
+# Generative AI & Azure OpenAI
 
 <img width="50%" align="right" alt="Meetup Logo" src="https://secure.meetupstatic.com/photos/event/2/5/7/3/clean_476649587.jpeg">
 
