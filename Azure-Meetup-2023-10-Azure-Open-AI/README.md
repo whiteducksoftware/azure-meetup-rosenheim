@@ -31,3 +31,4 @@ Freut euch auf einen Abend Rund um Generativer AI, Azure OpenAI & AI in der Entw
 ### Resources
 
 - Die Slides für "Steigerung der Developer Productivity mit den Möglichkeiten von GitHub und AI" findet Ihr [hier](arm-github-dev-prod.pdf)
+- Die Slides für "ChatGPT & JUNE: Wie wir Azure OpenAI in unser SaaS-Produkt integriert haben" findet Ihr [hier](JUNE-How-we-integrated-Azure-OpenAI.pdf)
