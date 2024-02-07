@@ -38,3 +38,4 @@ Azure Communtiy for professionals, interested and newcomers.
 - [Pulumi & Azure: Der Turbo-Boost für deine Cloud-Projekte (2023 - 05)](Azure-Meetup-2023-05-25-Pulumi-and-Azure-Der-Turbo-Boost-fuer-deine-Cloud-Projekte/README.md)
 - [Azure Developer CLI: azd up - one command to rule them all (2023 - 06)](Azure-Meetup-2023-06-Azure-Developer-CLI/README.md)
 - [Generative AI & Azure OpenAI (2023 - 10)](Azure-Meetup-2023-10-Azure-Open-AI/README.md)
+- [.Net Conf 2023 recap (2024 - 02)](Azure-Meetup-2024-02-Dotnet-Conf-Recap/arm-dotnet-conf-2023-recap.pdf)
